@@ -1,8 +1,8 @@
 # 🧠 Deep Learning Projects
 
-A collection of practical **Deep Learning and Computer Vision projects** built while learning and experimenting with neural networks, transfer learning, audio classification, and image classification.
+A collection of practical **Deep Learning, Computer Vision, and Audio AI projects** built while learning and experimenting with neural networks, image processing, transfer learning, CNNs, and audio classification.
 
-The repository is organized as a collection of independent projects, with each project containing its own notebook, trained model, supporting files, and documentation where applicable.
+The repository is organized into independent projects. Each project may include its own notebook, trained model, visualizations, supporting files, and documentation.
 
 ---
 
@@ -10,13 +10,46 @@ The repository is organized as a collection of independent projects, with each p
 
 | Project | Domain | Model / Approach | Task |
 |---|---|---|---|
+| 🖼️ [CIFAR-10 CNN & Image Processing](Project_A/) | Computer Vision | CNN, Convolution, Pooling | CIFAR-10 image classification and image-processing experiments |
 | 🐾 [Animal Classifier](animal_classifier/) | Computer Vision | EfficientNetB0 + Transfer Learning | 80-class animal image classification |
 | 🎙️ [Audio Deepfake Detection](audio_deepfake/) | Audio / Deep Learning | CNN + Mel Spectrograms | Real vs Fake audio classification |
 | 🧍 [Human Posture Recognition](human_posture_recognition/) | Computer Vision | MobileNetV2 + Transfer Learning | 4-class human posture classification |
 
 ---
 
-## 🐾 1. Animal Classifier
+## 🖼️ 1. CIFAR-10 CNN & Image Processing
+
+A hands-on deep learning project exploring image processing operations and Convolutional Neural Networks using the **CIFAR-10 dataset**.
+
+### Topics Covered
+
+- CIFAR-10 dataset exploration and pixel intensity histograms
+- Manual convolution and zero padding
+- Convolutional feature maps
+- Max pooling vs. average pooling
+- CNN model training
+- Training and validation curves
+- Confusion matrix and misclassified samples
+
+### Visualizations
+
+**Pixel Intensity Histograms**
+
+![CIFAR-10 Pixel Intensity Histograms](Project_A/plots/a1_3_pixel_histograms.png)
+
+**Convolutional Feature Maps**
+
+![CNN Feature Maps](Project_A/plots/a2_4_conv2d_feature_maps.png)
+
+**CNN Training Curves**
+
+![CNN Training Curves](Project_A/plots/a4_3_cnn_training_curves.png)
+
+👉 **[Open CIFAR-10 CNN & Image Processing](Project_A/)**
+
+---
+
+## 🐾 2. Animal Classifier
 
 An image classification project that recognizes **80 different animal classes**.
 
@@ -59,7 +92,7 @@ Animal Prediction
 
 ---
 
-## 🎙️ 2. Audio Deepfake Detection
+## 🎙️ 3. Audio Deepfake Detection
 
 A deep learning project that classifies audio recordings as **Real** or **Fake**.
 
@@ -107,7 +140,7 @@ These results belong to the current dataset and experiment and are not intended 
 
 ---
 
-## 🧍 3. Human Posture Recognition
+## 🧍 4. Human Posture Recognition
 
 An image classification project that recognizes four human postures:
 
@@ -169,17 +202,20 @@ Posture Prediction
 - Fine-Tuning
 
 ### Computer Vision
+- Image preprocessing and convolution operations
 - EfficientNetB0
 - MobileNetV2
-- Image Classification
+- Image classification
+- Pooling and feature extraction
 
 ### Audio Processing
 - Librosa
 - Mel Spectrograms
-- Audio Classification
+- Audio classification
 
 ### Data & Visualization
 - NumPy
+- Pandas
 - Matplotlib
 
 ---
@@ -188,6 +224,12 @@ Posture Prediction
 
 ```text
 Deep-Learning-Projects/
+│
+├── Project_A/
+│   ├── plots/
+│   ├── models/
+│   ├── DL_PR4.ipynb
+│   └── README.md
 │
 ├── animal_classifier/
 │   ├── figures/
@@ -218,13 +260,11 @@ Deep-Learning-Projects/
 This repository is a growing collection of hands-on deep learning projects created to practice:
 
 - Neural network development
-- CNN architectures
-- Transfer learning
-- Fine-tuning pretrained models
-- Image classification
-- Audio classification
+- CNN architectures and image processing
+- Transfer learning and fine-tuning
+- Image and audio classification
 - Dataset preprocessing
-- Model evaluation
+- Model evaluation and visualization
 - Model saving and loading
 - Building reproducible machine learning workflows
 
@@ -240,4 +280,4 @@ GitHub: [@Deepvejpara](https://github.com/Deepvejpara)
 
 ---
 
-⭐ **Explore the individual project folders for detailed documentation, notebooks, trained models, datasets, and results.**
+⭐ **Explore the individual project folders for detailed documentation, notebooks, visualizations, trained models, and results.**

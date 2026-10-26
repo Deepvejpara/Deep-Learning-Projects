@@ -13,6 +13,14 @@ The dataset consists of:
 
 The goal of this project is to understand fundamental image processing operations and explore how CNNs extract features from images to perform image classification.
 
+## 🎥 Project Walkthrough
+
+Explore the complete project walkthrough, including demonstrations and supporting files:
+
+👉 **[Watch the Project Walkthrough on Google Drive](https://drive.google.com/drive/folders/17kQ6aaBN9A_0ZAEEwYBRBXGlxj-RJGc1?usp=drive_link)**
+
+
+
 ## 🎯 Project Objectives
 
 - Explore and visualize the CIFAR-10 dataset.
